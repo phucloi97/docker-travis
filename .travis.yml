@@ -1,3 +1,4 @@
+laguage: nodejs
 sudo: require
 services:
   - docker
