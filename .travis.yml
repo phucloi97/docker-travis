@@ -1,5 +1,4 @@
-laguage: nodejs
-sudo: require
+sudo: required
 services:
   - docker
 before_install:
