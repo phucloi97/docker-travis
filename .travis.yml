@@ -6,4 +6,4 @@ before_install:
   - docker build -t phucloi97/docker-travis -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true phucloi97/docker-travis npm run test --forceExit
+  - docker run phucloi97/docker-travis npm run test -- --coverage
